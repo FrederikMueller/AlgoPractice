@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Algo_Practice;
+namespace Algorithms.Medium;
 
 public class Medium
 {

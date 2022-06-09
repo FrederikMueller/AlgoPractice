@@ -1,14 +1,12 @@
 ﻿using Xunit;
 
-namespace Algo_Practice;
+namespace Algorithms.Medium;
 public class Tests
 {
-    Calcs calcs;
     Medium mAlgos;
 
     public Tests()
     {
-        calcs = new Calcs();
         mAlgos = new Medium();
     }
 
@@ -26,7 +24,6 @@ public class Tests
     [MemberData(nameof(TestData))]
     public void MultiManyNumbersTestTheory(params int[] ints)
     {
-        Assert.Equal(ints[0], calcs.Multiply(ints[1], ints[2]));
     }
 
     public static IEnumerable<object[]> TestData()
