@@ -16,8 +16,7 @@ public static class ThreeNumberSum
             Time = O(N²)
             Space = O(N)
     */
-
-    public static List<int[]> ThreeNumberSum2(int[] array, int targetSum)
+    public static List<int[]> PointerSolution(int[] array, int targetSum)
     {
         Array.Sort(array);
         var sums = new List<int[]>();
@@ -51,7 +50,7 @@ public static class ThreeNumberSum
 
         return sums;
     }
-    public static List<int[]> ThreeNumberSum1(int[] array, int targetSum)
+    public static List<int[]> DictionarySolution(int[] array, int targetSum)
     {
         Array.Sort(array);
         var listOfTriplets = new List<int[]>();

@@ -1,14 +1,14 @@
 ﻿using Algorithms.Medium;
 
-public class Program
+namespace Algorithms;
+
+public static class Program
 {
     private static void Main(string[] args)
     {
         var arr = new int[] { 12, 3, 1, 2, -6, 5, -8, 6 };
 
-        var listResult = ThreeNumberSum.Sum(arr, 0);
-
-        foreach (var outputArray in listResult)
+        foreach (var outputArray in ThreeNumberSum.PointerSolution(arr, 0))
         {
             foreach (var num in arr)
             {
@@ -20,7 +20,8 @@ public class Program
         Console.ReadLine();
     }
 
-    // create helper extension methods
+    // create helper extension methods to display outputs
+    // make this proj something epic that you can use for a long while
     // create tests and samples in the file of the algo
     // review the ones you simply import, you at least have understand conceptually whats going on
 }
