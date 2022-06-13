@@ -1,4 +1,4 @@
-# Practice Repo test
+# Algorithm Practice Repo
 
 Repo that documents a chunk of my algorithm practice and what I thought during and after the problem solving.
 
