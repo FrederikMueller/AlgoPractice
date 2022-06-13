@@ -10,7 +10,7 @@ public class RunLengthEncoding
 	        Time = O(N)
 	        Space = O(N)
     */
-    public string Solution(string str)
+    public string EncodeString(string str)
     {
         var sb = new StringBuilder();
         int currentRunLength = 1;

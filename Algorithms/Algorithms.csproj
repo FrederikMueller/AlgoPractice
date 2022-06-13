@@ -22,7 +22,6 @@
 
   <ItemGroup>
     <Folder Include="Hard\" />
-    <Folder Include="Very Hard\" />
   </ItemGroup>
 
 </Project>
