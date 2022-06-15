@@ -5,6 +5,7 @@ public class RunLengthEncoding
 {
     /*
         	Problem Solving: Traverse once, compare current char with last, update run length, on end of run, store encoded value in the correct format (checking >9)
+                             In: non empty string, Out: run length encoding as string, Run length > 9 must be split. 9A3A = 12A
 	        Issues: Missed the obvious first char skip and the i-1 comparison initially. Makes everything much cleaner than with a helper variable.
 	        Video Notes:  You can also just trigger an encode when a run exceeds 9 instead of looping all of them at once.
 	        Time = O(N)
