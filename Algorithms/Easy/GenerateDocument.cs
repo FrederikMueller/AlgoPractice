@@ -11,13 +11,13 @@ public class GenerateDocument
 
     Lay out an abstract path from input to output. Think about what types of solutions might work.
         Iterate through the characters string and populate a dict with the count of each char
-	    Iterate through the document string and check the dict, then decrement the value
+        Iterate through the document string and check the dict, then decrement the value
 
     Then implement the simplified conceptual solution step by step
 	    Simply building the dict for the input and then checking each char in the document string against that was easiest.
 
     Optimization. Big O analysis. Amortization?
-	    Time = n+m
+        Time = n+m
         Space = c
     */
 
