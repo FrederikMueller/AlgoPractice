@@ -20,7 +20,7 @@ public class NonConstructibleChange
         You would never reach the current number if any number lower than that wasn’t creatable. And any number below the current one has been checked and can be created without the current one,
         so you can create everything you could before plus this current number. Going through the coins you have instead of what you're looking for is a bit counteintuitive, but it makes sense.
     */
-    public int FindLowest(int[] coins)
+    public int FindLowestNonconstructibleChange(int[] coins)
     {
         Array.Sort(coins);
         int maxChangePossible = 0;
