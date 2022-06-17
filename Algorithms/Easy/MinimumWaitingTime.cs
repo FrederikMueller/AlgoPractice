@@ -24,12 +24,11 @@ public class MinimumWaitingTime
         int totalWaitingTime = 0;
         int currentSum = 0;
 
-        for (int i = 0; i < queries.Length; i++) y
+        for (int i = 0; i < queries.Length; i++)
         {
             totalWaitingTime += currentSum;
             currentSum += queries[i];
         }
-
         return totalWaitingTime;
     }
 }
