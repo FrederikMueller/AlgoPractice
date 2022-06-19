@@ -25,14 +25,11 @@ public class BubbleSort
                 currentIndex = 0;
             }
 
-            int current = array[currentIndex];
-            int next = array[currentIndex + 1];
-
-            if (current > next)
+            if (array[currentIndex] > array[currentIndex + 1])
             {
-                int temp = next;
-                next = current;
-                current = temp;
+                int temp = array[currentIndex + 1];
+                array[currentIndex + 1] = array[currentIndex];
+                array[currentIndex] = temp;
             }
             else
                 currentIndex++;
