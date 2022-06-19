@@ -20,8 +20,8 @@ public class Node
 
     public List<string> DepthFirstSearch(List<string> array)
     {
-        array.Add(this.name);
-        foreach (var child in this.children)
+        array.Add(name);
+        foreach (var child in children)
         {
             child.DepthFirstSearch(array);
         }
