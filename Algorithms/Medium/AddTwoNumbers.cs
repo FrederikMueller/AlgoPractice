@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithms.Medium;
+﻿namespace Algorithms.Medium;
 public class AddTwoNumbers
 {
     public ListNode Solution(ListNode l1, ListNode l2)

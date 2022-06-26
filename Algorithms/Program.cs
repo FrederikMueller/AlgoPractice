@@ -1,7 +1,7 @@
 ﻿using Algorithms.Easy;
 using Algorithms.Medium;
 
-internal class Program
+internal static class Program
 {
     private static void Main(string[] args)
     {
