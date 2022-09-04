@@ -9,7 +9,6 @@ public class ValidateSubsequence
 		Time = O(N)
         Space = O(1)
     */
-
     public bool IsValidSubsequence(List<int> array, List<int> sequence)
     {
         for (int i = 0; i < array.Count; i++)
