@@ -1,5 +1,5 @@
 ﻿namespace Algorithms.Medium;
-public class LongestPeak
+public static class LongestPeak
 {
     /*
     	Problem Solving: Very uninspired brute forcing method. No cancellation of steps found. I just went through all possible states and coded it out. It works, but looks messy and doesn’t feel right.
@@ -12,10 +12,8 @@ public class LongestPeak
 		Time = O(N)
         Space = O(1)
     */
-    public int GetLongestPeak(int[] array)
+    public static int GetLongestPeak(int[] array)
     {
-        // Find peaks
-        List<int> peaks = new List<int>();
         int result = 0;
 
         for (int i = 1; i < array.Length - 1; i++)

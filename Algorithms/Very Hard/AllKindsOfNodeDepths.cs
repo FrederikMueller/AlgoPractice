@@ -1,4 +1,5 @@
 ﻿namespace Algorithms.VeryHard;
+
 public class AllKindsOfNodeDepths
 {
     public int GetSumOfAllNodeDepths(BinaryTree root)
